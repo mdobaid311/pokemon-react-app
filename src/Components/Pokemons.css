@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemons {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #def3fd;
+  margin: 20px;
+}
+
+.filters-container .input {
+  border: none;
+  padding: 5px 10px;
+  margin: 0 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.filters-container button {
+  cursor: pointer;
+}
+.filters-container .input:hover {
+  filter: brightness(120%);
+}
+
+.filters-container button:active {
+  transform: scale(110%);
+}
+
+.search {
+  text-transform: lowercase;
+}
